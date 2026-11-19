@@ -1,0 +1,325 @@
+{
+  "users": [
+    {
+      "id": "u_maya",
+      "username": "maya_lin",
+      "displayName": "Maya Lin",
+      "email": "maya@snapgram.demo",
+      "passwordHash": "2f1ca11acb98d5efa1c5646f2c3939a1:3c98d95cdf4e62058346b77c439be07e81bac3fa0e377ffb12d9c0412ab1ea097bacf05578d1bdf1ee4653c421ecdc7d2a304dd0b4b174c7a1b168c94f133c0c",
+      "avatarUrl": "/src/assets/images/avatar_maya_1795026374635.jpg",
+      "bio": "35mm street frames & late-night Tokyo light studies. Shooting Leica M11 + analog.",
+      "website": "mayalin.studio",
+      "verified": true,
+      "createdAt": 1792462559344
+    },
+    {
+      "id": "u_kai",
+      "username": "kai_motion",
+      "displayName": "Kai Sato",
+      "email": "kai@snapgram.demo",
+      "passwordHash": "2f1ca11acb98d5efa1c5646f2c3939a1:3c98d95cdf4e62058346b77c439be07e81bac3fa0e377ffb12d9c0412ab1ea097bacf05578d1bdf1ee4653c421ecdc7d2a304dd0b4b174c7a1b168c94f133c0c",
+      "avatarUrl": "/src/assets/images/avatar_kai_1795026374784.jpg",
+      "bio": "Night skate films, soundscapes & handheld city reels.",
+      "website": "kaimotion.film",
+      "verified": true,
+      "createdAt": 1792714559344
+    },
+    {
+      "id": "u_elena",
+      "username": "elena_forma",
+      "displayName": "Elena Vance",
+      "email": "elena@snapgram.demo",
+      "passwordHash": "2f1ca11acb98d5efa1c5646f2c3939a1:3c98d95cdf4e62058346b77c439be07e81bac3fa0e377ffb12d9c0412ab1ea097bacf05578d1bdf1ee4653c421ecdc7d2a304dd0b4b174c7a1b168c94f133c0c",
+      "avatarUrl": "/src/assets/images/avatar_elena_1795026376005.jpg",
+      "bio": "Spatial designer exploring raw concrete, daylight shadow geometry, and vinyl.",
+      "website": "forma-arch.co",
+      "verified": false,
+      "createdAt": 1793254559344
+    }
+  ],
+  "follows": [
+    {
+      "followerId": "u_maya",
+      "followingId": "u_kai",
+      "createdAt": 1794622559344
+    },
+    {
+      "followerId": "u_maya",
+      "followingId": "u_elena",
+      "createdAt": 1794730559344
+    },
+    {
+      "followerId": "u_kai",
+      "followingId": "u_maya",
+      "createdAt": 1794766559344
+    },
+    {
+      "followerId": "u_elena",
+      "followingId": "u_maya",
+      "createdAt": 1794802559344
+    }
+  ],
+  "stories": [
+    {
+      "id": "s_1",
+      "authorId": "u_maya",
+      "mediaUrl": "/src/assets/images/story_rooftop_dusk_1795026377393.jpg",
+      "mediaType": "image",
+      "filterId": "cobalt",
+      "captionOverlay": "Blue hour check-in from Shoreditch rooftop",
+      "createdAt": 1795047359344,
+      "expiresAt": 1795133759344,
+      "viewedBy": []
+    },
+    {
+      "id": "s_2",
+      "authorId": "u_kai",
+      "mediaUrl": "/src/assets/images/reel_skate_tunnel_1795026378184.jpg",
+      "mediaType": "image",
+      "filterId": "kodak",
+      "captionOverlay": "Midnight tunnel run — raw cut dropping tonight",
+      "createdAt": 1795043759344,
+      "expiresAt": 1795130159344,
+      "viewedBy": []
+    },
+    {
+      "id": "s_3",
+      "authorId": "u_elena",
+      "mediaUrl": "/src/assets/images/post_brutalist_light_1795026377758.jpg",
+      "mediaType": "image",
+      "filterId": "matte",
+      "captionOverlay": "4:15 PM sun angle hit the atrium wall",
+      "createdAt": 1795036559344,
+      "expiresAt": 1795122959344,
+      "viewedBy": [
+        "u_maya"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "p_tokyo_rain",
+      "authorId": "u_maya",
+      "kind": "photo",
+      "mediaUrl": "/src/assets/images/post_tokyo_rain_1795026376614.jpg",
+      "filterId": "original",
+      "caption": "Wet asphalt turns every lantern into a second exposure. Shinjuku alleyways after midnight.",
+      "location": "Shinjuku, Tokyo",
+      "category": "Photography",
+      "tags": [
+        "street",
+        "tokyo",
+        "night",
+        "35mm"
+      ],
+      "likes": [
+        "u_kai",
+        "u_elena"
+      ],
+      "saves": [
+        "u_elena"
+      ],
+      "viewsCount": 1420,
+      "createdAt": 1795045559344
+    },
+    {
+      "id": "p_skate_reel",
+      "authorId": "u_kai",
+      "kind": "reel",
+      "mediaUrl": "/src/assets/images/reel_skate_tunnel_1795026378184.jpg",
+      "posterUrl": "/src/assets/images/reel_skate_tunnel_1795026378184.jpg",
+      "isAnimatedPhoto": true,
+      "filterId": "kodak",
+      "caption": "Carving the curved pedestrian tube at 1 AM. Echoes of urethane on poured concrete.",
+      "location": "Southbank Underpass",
+      "audioTrack": "Kai Sato · Sodium Echoes (Original Audio)",
+      "category": "Video & Reels",
+      "tags": [
+        "skate",
+        "reel",
+        "nightfilm",
+        "urban"
+      ],
+      "likes": [
+        "u_maya",
+        "u_elena"
+      ],
+      "saves": [
+        "u_maya"
+      ],
+      "viewsCount": 8940,
+      "createdAt": 1795036559344
+    },
+    {
+      "id": "p_brutalist",
+      "authorId": "u_elena",
+      "kind": "photo",
+      "mediaUrl": "/src/assets/images/post_brutalist_light_1795026377758.jpg",
+      "filterId": "matte",
+      "caption": "Silence carved in board-formed concrete. Only one diagonal beam enters before dusk.",
+      "location": "Kunsthalle Atrium",
+      "category": "Architecture",
+      "tags": [
+        "architecture",
+        "brutalism",
+        "light",
+        "gallery"
+      ],
+      "likes": [
+        "u_maya"
+      ],
+      "saves": [
+        "u_maya",
+        "u_kai"
+      ],
+      "viewsCount": 980,
+      "createdAt": 1795022159344
+    },
+    {
+      "id": "p_vinyl_video",
+      "authorId": "u_kai",
+      "kind": "video",
+      "mediaUrl": "/src/assets/images/post_vinyl_studio_1795026377323.jpg",
+      "posterUrl": "/src/assets/images/post_vinyl_studio_1795026377323.jpg",
+      "isAnimatedPhoto": true,
+      "filterId": "kodak",
+      "caption": "Late-night tape loop session before scoring the next short reel. Warm tungsten and 45 RPM.",
+      "location": "Studio B, East London",
+      "audioTrack": "Analog Warmth · Loop 04",
+      "category": "Music",
+      "tags": [
+        "vinyl",
+        "studio",
+        "analog",
+        "music"
+      ],
+      "likes": [
+        "u_elena"
+      ],
+      "saves": [],
+      "viewsCount": 2310,
+      "createdAt": 1795004159344
+    },
+    {
+      "id": "p_rooftop_reel",
+      "authorId": "u_maya",
+      "kind": "reel",
+      "mediaUrl": "/src/assets/images/story_rooftop_dusk_1795026377393.jpg",
+      "posterUrl": "/src/assets/images/story_rooftop_dusk_1795026377393.jpg",
+      "isAnimatedPhoto": true,
+      "filterId": "cobalt",
+      "caption": "City lights waking up across the skyline. Held a 15-second timelapse from the parapet.",
+      "location": "East Rooftop",
+      "audioTrack": "Night Horizon · Ambient Field Recording",
+      "category": "Nightlife",
+      "tags": [
+        "skyline",
+        "dusk",
+        "timelapse",
+        "city"
+      ],
+      "likes": [
+        "u_kai"
+      ],
+      "saves": [
+        "u_kai"
+      ],
+      "viewsCount": 5120,
+      "createdAt": 1794982559344
+    }
+  ],
+  "comments": [
+    {
+      "id": "c_1",
+      "postId": "p_tokyo_rain",
+      "authorId": "u_kai",
+      "text": "The lantern reflections on the wet stone look unreal. What shutter speed did you hold?",
+      "createdAt": 1795047359344
+    },
+    {
+      "id": "c_2",
+      "postId": "p_tokyo_rain",
+      "authorId": "u_maya",
+      "text": "1/60s wide open at f/1.4 on 35mm — kept the rain streak sharp.",
+      "createdAt": 1795048799344
+    },
+    {
+      "id": "c_3",
+      "postId": "p_skate_reel",
+      "authorId": "u_elena",
+      "text": "That tunnel curve frames the sodium glow so cleanly.",
+      "createdAt": 1795040159344
+    }
+  ],
+  "messages": [
+    {
+      "id": "m_1",
+      "senderId": "u_kai",
+      "recipientId": "u_maya",
+      "text": "Hey Maya! Are we still shooting the night bridge reel on Thursday?",
+      "read": true,
+      "createdAt": 1795032959344
+    },
+    {
+      "id": "m_2",
+      "senderId": "u_maya",
+      "recipientId": "u_kai",
+      "text": "Yes, bringing the 35mm and two fast primes. Meet around blue hour?",
+      "read": true,
+      "createdAt": 1795034759344
+    },
+    {
+      "id": "m_3",
+      "senderId": "u_kai",
+      "recipientId": "u_maya",
+      "text": "Sent a quick location snap from the underpass.",
+      "mediaUrl": "/src/assets/images/reel_skate_tunnel_1795026378184.jpg",
+      "mediaType": "image",
+      "isEphemeralSnap": true,
+      "snapOpenedByRecipient": false,
+      "read": false,
+      "createdAt": 1795050239344
+    },
+    {
+      "id": "m_4",
+      "senderId": "u_elena",
+      "recipientId": "u_maya",
+      "text": "Loved the Tokyo rain frame — saved it to my moodboard.",
+      "read": true,
+      "createdAt": 1795043759344
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n_1",
+      "userId": "u_maya",
+      "actorId": "u_kai",
+      "type": "comment",
+      "postId": "p_tokyo_rain",
+      "postPreviewUrl": "/src/assets/images/post_tokyo_rain_1795026376614.jpg",
+      "text": "commented: \"The lantern reflections on the wet stone look unreal.\"",
+      "read": true,
+      "createdAt": 1795047359344
+    },
+    {
+      "id": "n_2",
+      "userId": "u_maya",
+      "actorId": "u_elena",
+      "type": "like",
+      "postId": "p_tokyo_rain",
+      "postPreviewUrl": "/src/assets/images/post_tokyo_rain_1795026376614.jpg",
+      "text": "liked your photo from Shinjuku, Tokyo",
+      "read": true,
+      "createdAt": 1795046639344
+    },
+    {
+      "id": "n_3",
+      "userId": "u_maya",
+      "actorId": "u_elena",
+      "type": "follow",
+      "text": "started following you",
+      "read": true,
+      "createdAt": 1794989759344
+    }
+  ]
+}

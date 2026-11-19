@@ -1,0 +1,11 @@
+{
+  "name": "SnapGram",
+  "description": "SnapGram is a mobile-first dark social media platform combining 24-hour ephemeral stories, photo and video feeds, vertical reels, a live filter camera studio, and private messaging.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
